@@ -93,8 +93,11 @@ AERO_STENT-Viswakarma-26/
 │   ├── aerostent_fig2_waveforms_diagram.png
 │   ├── aerostent_fig3_app_lung_heatmap.png
 │   └── README.md
-├── pcb/                  # [RESERVED] KiCad 8.0 / Altium schematics, layouts & Gerber zip files
-│   ├── .gitkeep
+├── pcb/                  # KiCad schematics, 2-layer PCB layout & Gerber production files
+│   ├── AERO_STENT.kicad_sch
+│   ├── AERO_STENT.kicad_pcb
+│   ├── AERO_STENT.kicad_pro
+│   ├── gerber/           # RS-274X gerbers & fabrication zip package
 │   └── README.md
 ├── firmware/             # Dual-MCU C/C++ embedded firmware (STM32 / ESP32-S3)
 │   ├── include/config.h  # Pinouts, frequencies, and pressure thresholds
