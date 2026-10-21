@@ -95,10 +95,8 @@ AERO_STENT-Viswakarma-26/
 │   ├── include/config.h  # Pinouts, frequencies, and pressure thresholds
 │   ├── src/main.cpp      # Breath-synchronized state machine & 110kHz PWM
 │   └── platformio.ini    # Build and flash configuration
-├── dashboard/            # Web-based clinical telemetry & live airway waveform visualizer
-│   ├── index.html
-│   ├── styles.css
-│   └── app.js
+├── dashboard/            # [RESERVED] Web-based clinical telemetry & live airway waveform visualizer
+│   └── .gitkeep
 ├── backend/              # Python FastAPI telemetry server & WebSocket streams
 │   ├── main.py
 │   └── requirements.txt
@@ -122,20 +120,13 @@ Open the master parametric 3D model in Blender (v4.0 or v5.2+):
 blender cad/aerostent_assembled.blend
 ```
 
-### 2. Launching the Live Telemetry Dashboard
-Simply open `dashboard/index.html` in any web browser, or serve it with Python:
-```bash
-python3 -m http.server 3000 --directory dashboard
-# Open http://localhost:3000 in your browser
-```
-
-### 3. Running Structural FEA Simulation
+### 2. Running Structural FEA Simulation
 Execute the automated stress calculation and safety factor validation script:
 ```bash
 python3 models/fea_stress_analysis.py
 ```
 
-### 4. Compiling & Flashing Firmware
+### 3. Compiling & Flashing Firmware
 Build and upload to your ESP32-S3 or STM32 development board using PlatformIO:
 ```bash
 cd firmware
