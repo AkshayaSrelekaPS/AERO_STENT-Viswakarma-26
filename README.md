@@ -56,7 +56,7 @@ All components are aligned on a single coaxial datum for streamlined vertical as
 | **10** | **Venturi Manifold** | Medical Polysulfone (PSU Radel) | Inlet 22.0 mm → Throat 12.0 mm (15° taper) | Hermetic interference fit |
 
 <p align="center">
-  <img src="cad/aerostent_fig1_architecture_cutaway.png" alt="AERO-STENT Cutaway View" width="85%">
+  <img src="diagrams/aerostent_fig1_architecture_cutaway.png" alt="AERO-STENT Cutaway View" width="85%">
   <br>
   <em>Figure 2: Architectural internal cutaway showing hermetic separation between fluidic wet chamber and dry avionics compartment.</em>
 </p>
@@ -87,6 +87,11 @@ AERO_STENT-Viswakarma-26/
 │   ├── aerostent_assembled.stl
 │   ├── aerostent_assembled.obj
 │   ├── aerostent_cad_model.blend
+│   └── README.md
+├── diagrams/             # Architecture schematics, breath-synchronization waveforms & heatmaps
+│   ├── aerostent_fig1_architecture_cutaway.png
+│   ├── aerostent_fig2_waveforms_diagram.png
+│   ├── aerostent_fig3_app_lung_heatmap.png
 │   └── README.md
 ├── pcb/                  # [RESERVED] KiCad 8.0 / Altium schematics, layouts & Gerber zip files
 │   ├── .gitkeep
