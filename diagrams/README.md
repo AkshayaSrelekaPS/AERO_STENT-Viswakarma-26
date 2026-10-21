@@ -1,6 +1,6 @@
 # AERO-STENT Engineering Diagrams & Scientific Figures
 
-This directory contains the primary system architecture schematics, fluidic waveforms, and clinical deposition heatmaps for **AERO-STENT**.
+This directory contains the primary system architecture schematics, fluidic waveforms, clinical deposition heatmaps, and FEA structural convergence validation figures for **AERO-STENT**.
 
 ---
 
@@ -21,3 +21,7 @@ This directory contains the primary system architecture schematics, fluidic wave
 ### 3. Pulmonary Aerosol Deposition Heatmap & Clinical UI
 * **File:** `aerostent_fig3_app_lung_heatmap.png`
 * **Description:** In-silico lung deposition simulation comparing conventional continuous nebulizers (18–24% alveolar deposition, heavy oropharyngeal impaction) vs. AERO-STENT synchronized micro-dosing (>82% deep alveolar penetration, <10% waste).
+
+### 4. FEA Structural Mesh Convergence & Statistical Report
+* **File:** `aerostent_fig4_fea_mesh_convergence.png`
+* **Description:** Finite element mesh independence verification curve (Peak von Mises stress vs. element count) with asymptotic error reduction (<0.5%), quadratic tetrahedral (C3D10) orthogonal quality distribution (Avg: 0.86), and quantitative safety factor report (FoS = 1.61× dynamic impact, 8.35× static grip).
