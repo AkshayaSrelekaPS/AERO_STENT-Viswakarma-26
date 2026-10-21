@@ -144,4 +144,4 @@ pio run --target upload
 
 * **Institution:** Indian Institute of Technology Indore (Host) & Maker Bhavan Foundation
 * **Theme:** Theme 1: Health Tech — Point-of-Care & Emergency Care Hardware
-* **Lead Innovator:** Akshaya Sreleka P S (`AkshayaSrelekaPS`)
+
